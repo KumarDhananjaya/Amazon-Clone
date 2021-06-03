@@ -18,3 +18,11 @@
   margin-bottom: -150px;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
+
+.product {
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
