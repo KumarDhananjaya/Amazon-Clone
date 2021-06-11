@@ -64,3 +64,9 @@
   margin-top: 10px;
   border-color: darkgray;
 }
+
+@media (max-width: 990px) {
+  .login {
+    flex-direction: column;
+  }
+}

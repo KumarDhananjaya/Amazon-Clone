@@ -26,3 +26,9 @@
 .product:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 990px) {
+  .home {
+    flex-direction: column;
+  }
+}
